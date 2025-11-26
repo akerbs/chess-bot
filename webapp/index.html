@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Шахматы</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>♟️ Шахматы</h1>
+            <div class="status" id="status">Ваш ход</div>
+        </div>
+        
+        <div class="board-container">
+            <div class="board" id="board"></div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn btn-primary" id="newGameBtn">🔄 Новая игра</button>
+            <button class="btn btn-secondary" id="undoBtn">↩️ Отменить ход</button>
+        </div>
+        
+        <div class="move-history" id="moveHistory"></div>
+    </div>
+    
+    <script src="chess.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+

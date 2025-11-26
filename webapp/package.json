@@ -1,0 +1,7 @@
+{
+  "name": "chess-bot-webapp",
+  "version": "1.0.0",
+  "description": "Chess Bot Web App for Netlify",
+  "type": "module"
+}
+
